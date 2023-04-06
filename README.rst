@@ -2,8 +2,8 @@ Introduction
 ============
 
 
-.. image:: https://readthedocs.org/projects/circuitpython-lis3dh/badge/?version=latest
-    :target: https://micropython-lis3dh.readthedocs.io/
+.. image:: https://readthedocs.org/projects/lis3dh/badge/?version=latest
+    :target: https://lis3dh.readthedocs.io/
     :alt: Documentation Status
 
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
