@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: MIT
 """
-`lis3dh.lis3dh`
+`lis3dh`
 ================================================================================
 
 LIS3DH MicroPython Driver
