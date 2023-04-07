@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: MIT
 """
-`lis3dh`
+`lis3dh.lis3dh`
 ================================================================================
 
 LIS3DH MicroPython Driver
@@ -12,11 +12,11 @@ LIS3DH MicroPython Driver
 
 
 """
-# pylint: disable=unused-argument
+# pylint: disable=unused-argument, no-name-in-module
 
 import time
 from micropython import const
-from i2c_helpers import CBits, RegisterStruct
+from lis3dh.i2c_helpers import CBits, RegisterStruct
 
 __version__ = "0.0.0+auto.0"
 __repo__ = "https://github.com/jposada202020/LIS3DH.git"

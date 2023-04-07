@@ -1,5 +1,5 @@
-.. automodule:: lis3dh
+.. automodule:: lis3dh.lis3dh
     :members:
 
-.. automodule:: i2c_helpers
+.. automodule:: lis3dh.i2c_helpers
     :members:
