@@ -5,6 +5,12 @@ Table of Contents
 =================
 
 .. toctree::
+    :caption: API Reference
+    :maxdepth: 3
+
+    api
+
+.. toctree::
     :maxdepth: 4
     :hidden:
 
@@ -15,11 +21,7 @@ Table of Contents
 
     examples
 
-.. toctree::
-    :caption: API Reference
-    :maxdepth: 3
 
-    api
 
 Indices and tables
 ==================
