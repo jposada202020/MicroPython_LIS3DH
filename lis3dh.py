@@ -250,7 +250,7 @@ class LIS3DH:
         self._data_rate = value
 
     @property
-    def range(self):
+    def data_range(self):
         """The range of the accelerometer.
 
         +--------------------------------------------+-------------------------+
@@ -270,8 +270,8 @@ class LIS3DH:
 
         return self._range
 
-    @range.setter
-    def range(self, value):
+    @data_range.setter
+    def data_range(self, value):
         self._range = value
 
     @property
@@ -283,6 +283,6 @@ class LIS3DH:
 
         x, y, z = self._reg_xl
 
-        factor = self.acceleration_scale[self.range]
+        factor = self.acceleration_scale[self.data_range]
 
         return (x / factor) * 9.806, (y / factor) * 9.806, (z / factor) * 9.806
