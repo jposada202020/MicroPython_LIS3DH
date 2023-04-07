@@ -1,4 +1,4 @@
-    Simple test
+Simple test
 ------------
 
 Ensure your device works with this simple test.
