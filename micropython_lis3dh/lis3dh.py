@@ -16,7 +16,7 @@ LIS3DH MicroPython Driver
 
 import time
 from micropython import const
-from lis3dh.i2c_helpers import RegisterStruct, CBits
+from micropython_lis3dh.i2c_helpers import RegisterStruct, CBits
 
 __version__ = "0.0.0+auto.0"
 __repo__ = "https://github.com/jposada202020/LIS3DH.git"
@@ -70,13 +70,13 @@ class LIS3DH:
 
     **Quickstart: Importing and using the device**
 
-    Here is an example of using the :class:`LIS3DH` class.
+    Here is an example of using the :class:`lis3dh.LIS3DH` class.
     First you will need to import the libraries to use the sensor
 
     .. code-block:: python
 
         from machine import Pin, I2C
-        from lisd3h import lisd3h
+        from micropython_lisd3h import lisd3h
 
     Once this is done you can define your `machine.I2C` object and define your sensor object
 
