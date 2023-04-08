@@ -2,10 +2,10 @@
 
 import time
 from machine import Pin, I2C
-import lis3dh
+import micropython
 
 i2c = I2C(sda=Pin(8), scl=Pin(9))
-lis = lis3dh.LIS3DH(i2c)
+lis = micropython.LIS3DH(i2c)
 
 # Getting information about the current Accelerometers Data Rate
 print("Accelerometer Data Rate: ", lis.data_rate)
@@ -18,7 +18,7 @@ for _ in range(3):
     time.sleep(1)
 
 # Changing Data Rate of the accelerometer
-lis.data_rate = lis3dh.DATARATE_200
+lis.data_rate = micropython.DATARATE_200
 print("Accelerometer Changed Data Rate: ", lis.data_rate)
 for _ in range(3):
     accx, accy, accz = lis.acceleration

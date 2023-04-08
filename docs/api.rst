@@ -1,8 +1,8 @@
-.. automodule:: lis3dh
+.. automodule:: micropython_lis3dh
     :members:
 
-.. automodule:: lis3dh.lis3dh
+.. automodule:: micropython_lis3dh.lis3dh
     :members:
 
-.. automodule:: lis3dh.i2c_helpers
+.. automodule:: micropython_lis3dh.i2c_helpers
     :members:

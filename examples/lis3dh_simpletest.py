@@ -2,10 +2,10 @@
 
 import time
 from machine import Pin, I2C
-import lis3dh
+import micropython
 
 i2c = I2C(sda=Pin(8), scl=Pin(9))  # Correct I2C pins for UM FeatherS2
-lis = lis3dh.LIS3DH(i2c)
+lis = micropython.LIS3DH(i2c)
 
 for _ in range(10):
     accx, accy, accz = lis.acceleration
