@@ -5,7 +5,7 @@ Table of Contents
 =================
 
 .. toctree::
-    :maxdepth: 4
+    :maxdepth: 3
 
     self
 
