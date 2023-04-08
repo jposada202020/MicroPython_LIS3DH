@@ -5,16 +5,16 @@ Table of Contents
 =================
 
 .. toctree::
-    :caption: API Reference
-    :maxdepth: 3
-
-    api
-
-.. toctree::
     :maxdepth: 4
     :hidden:
 
     self
+
+.. toctree::
+    :caption: API Reference
+    :maxdepth: 3
+
+    api
 
 .. toctree::
     :caption: Examples

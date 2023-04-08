@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: MIT
 """
-`lis3dh.i2c_helpers`
+`i2c_helpers`
 ================================================================================
 
 I2C MicroPython Helpers
