@@ -20,8 +20,8 @@ Introduction
     :alt: Code Style: Black
 
 LIS3DH MicroPython Driver. Work is based in:
-https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/
-https://github.com/adafruit/Adafruit_CircuitPython_Register
+    * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/
+    * https://github.com/adafruit/Adafruit_CircuitPython_Register
 
 On supported GNU/Linux systems like the Raspberry Pi, you can install the driver locally `from
 PyPI <https://pypi.org/project/micropython-lis3dh/>`_.

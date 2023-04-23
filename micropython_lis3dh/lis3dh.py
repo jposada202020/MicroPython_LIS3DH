@@ -19,7 +19,7 @@ from micropython import const
 from micropython_lis3dh.i2c_helpers import RegisterStruct, CBits
 
 __version__ = "0.0.0+auto.0"
-__repo__ = "https://github.com/jposada202020/LIS3DH.git"
+__repo__ = "https://github.com/jposada202020/MicroPython_LIS3DH.git"
 
 
 _REG_WHOAMI = const(0x0F)
@@ -76,7 +76,7 @@ class LIS3DH:
     .. code-block:: python
 
         from machine import Pin, I2C
-        from micropython_lisd3h import lisd3h
+        from micropython_lis3dh import lis3dh
 
     Once this is done you can define your `machine.I2C` object and define your sensor object
 
