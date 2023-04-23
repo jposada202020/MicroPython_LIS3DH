@@ -17,7 +17,7 @@ readme = "README.rst"
 authors = [
     {name = "Jose D. Montoya", email = "lis3dh@mailmeto.mozmail.com"}
 ]
-urls = {Homepage = "https://github.com/jposada202020/LIS3DH"}
+urls = {Homepage = "https://github.com/jposada202020/MicroPython_LIS3DH"}
 keywords = [
     "micropython",
     "lis3dh",
@@ -39,7 +39,7 @@ classifiers = [
 dynamic = ["dependencies", "optional-dependencies"]
 
 [tool.setuptools]
-py-packages = ["lis3dh"]
+py-packages = ["micropython_lis3dh"]
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
