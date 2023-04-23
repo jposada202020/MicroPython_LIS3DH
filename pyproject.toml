@@ -39,7 +39,7 @@ classifiers = [
 dynamic = ["dependencies", "optional-dependencies"]
 
 [tool.setuptools]
-py-packages = ["micropython_lis3dh"]
+packages = ["micropython_lis3dh"]
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
