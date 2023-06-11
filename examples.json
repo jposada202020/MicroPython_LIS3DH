@@ -1,0 +1,8 @@
+{
+  "urls": [
+    ["micropython_lis3dh/examples/lis3dg_data_range.py", "github:jposada202020/MicroPython_LIS3DH/examples/lis3dg_data_range.py"],
+    ["micropython_lis3dh/examples/lis3dh_data_rate.py", "github:jposada202020/MicroPython_LIS3DH/examples/lis3dh_data_rate.py"],
+    ["micropython_lis3dh/examples/lis3dh_simpletest.py", "github:jposada202020/MicroPython_LIS3DH/examples/lis3dh_simpletest.py"]
+  ],
+  "version": "0.1"
+}
