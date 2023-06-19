@@ -29,6 +29,7 @@ _REG_CTRL3 = const(0x22)
 _REG_CTRL4 = const(0x23)
 _REG_CTRL5 = const(0x24)
 _REG_OUT_X_L = const(0x28)
+_REG_OUT_X_LM = const(0xA8)
 
 # Data rate
 DATARATE_1344 = const(0b1001)  # 1344 Hz
@@ -97,7 +98,7 @@ class LIS3DH:
     _device_control = RegisterStruct(_REG_CTRL1, "B")
     _reboot_register = RegisterStruct(_REG_CTRL5, "B")
     _ctrl4_register = RegisterStruct(_REG_CTRL4, "B")
-    _reg_xl = RegisterStruct(_REG_OUT_X_L | 0x80, "<hhh")
+    _reg_xl = RegisterStruct(_REG_OUT_X_LM, "<hhh")
     _temp_comp = RegisterStruct(_REG_TEMPCFG, "B")
 
     # CTRL_REG1 (20h) ODR3|ODR2|ODR1|ODR0|LPen|Zen|Yen|Xen
