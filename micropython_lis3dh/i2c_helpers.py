@@ -83,5 +83,5 @@ class RegisterStruct:
         return value
 
     def __set__(self, obj, value):
-
-        obj._i2c.writeto_mem(obj._address, self.register, bytes([value]))
+        mem_value = struct.pack(self.format, value)
+        obj._i2c.writeto_mem(obj._address, self.register, mem_value)
