@@ -9,7 +9,6 @@ lis = lis3dh.LIS3DH(i2c)
 
 for _ in range(10):
     accx, accy, accz = lis.acceleration
-    print("X: ", accx)
-    print("Y: ", accy)
-    print("Z: ", accz)
+    print(f"x: {accx}m/s^2, y: {accy}m/s^2, z: {accz}m/s^2")
+    print()
     time.sleep(1)

@@ -11,10 +11,8 @@ lis = lis3dh.LIS3DH(i2c)
 print("Accelerometer Data Rate: ", lis.data_rate)
 for _ in range(3):
     accx, accy, accz = lis.acceleration
-    print("X: ", accx)
-    print("Y: ", accy)
-    print("Z: ", accz)
-    print("----------")
+    print(f"x: {accx}m/s^2, y: {accy}m/s^2, z: {accz}m/s^2")
+    print()
     time.sleep(1)
 
 # Changing Data Rate of the accelerometer
@@ -22,8 +20,6 @@ lis.data_rate = lis3dh.DATARATE_200
 print("Accelerometer Changed Data Rate: ", lis.data_rate)
 for _ in range(3):
     accx, accy, accz = lis.acceleration
-    print("X: ", accx)
-    print("Y: ", accy)
-    print("Z: ", accz)
-    print("----------")
+    print(f"x: {accx}m/s^2, y: {accy}m/s^2, z: {accz}m/s^2")
+    print()
     time.sleep(1)

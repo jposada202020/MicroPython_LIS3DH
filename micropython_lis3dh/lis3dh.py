@@ -166,7 +166,6 @@ class LIS3DH:
 
     @axes_enabled.setter
     def axes_enabled(self, value):
-
         self._axes_enabled = value
 
     @property
@@ -207,7 +206,6 @@ class LIS3DH:
 
     @data_rate.setter
     def data_rate(self, value):
-
         self._data_rate = value
 
     @property

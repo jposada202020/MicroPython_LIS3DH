@@ -38,14 +38,12 @@ class CBits:
         obj,
         objtype=None,
     ) -> int:
-
         reg = obj._i2c.readfrom_mem(obj._address, self.register, True)[0]
         reg = (reg & self.bit_mask) >> self.star_bit
 
         return reg
 
     def __set__(self, obj, value: int) -> None:
-
         memory_value = obj._i2c.readfrom_mem(obj._address, self.register, True)[0]
         memory_value &= ~self.bit_mask
 
