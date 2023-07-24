@@ -13,11 +13,7 @@ I2C MicroPython Helpers
 
 """
 # pylint: disable=unused-argument, no-name-in-module
-
-try:
-    import struct
-except ImportError:
-    import ustruct as struct
+import struct
 
 __version__ = "0.0.0+auto.0"
 __repo__ = "https://github.com/jposada202020/LIS3DH.git"
