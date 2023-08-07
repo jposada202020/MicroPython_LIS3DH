@@ -41,7 +41,7 @@ To install directly using a WIFI capable board
 
 .. code-block:: shell
 
-    mip install github:jposada202020/MicroPython_LIS3DH
+    mip.install("github:jposada202020/MicroPython_LIS3DH")
 
 
 Installing Library Examples
@@ -57,7 +57,7 @@ To install directly using a WIFI capable board
 
 .. code-block:: shell
 
-    mip install github:jposada202020/MicroPython_LIS3DH/examples.json
+    mip.install("github:jposada202020/MicroPython_LIS3DH/examples.json")
 
 
 
